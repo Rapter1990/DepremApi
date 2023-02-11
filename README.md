@@ -10,8 +10,8 @@
   <li>The purpose of the project is to get all data from Kandilli and AFAD and analyze them</li>  
   <li>Here is the explanation of the project
       <ul>
-        <li>After 7.8-magnitude earthquake and 7.8-magnitude earthquake occured in Turkey on 6th February 2023 and I felt very sad about the devastating disaster, I tried to implement an example of getting all earthquakes data from Kandili and Afad</li>
-        <li>Analyze the data to get specific information by filter through Java Stream API</li>
+        <li>After <b>7.8-magnitude earthquake</b> and <b>7.8-magnitude earthquake</b> occured in Turkey on 6th February 2023 and I felt very sad about the devastating disaster, I tried to implement an example of getting all earthquakes data from <b>Kandili</b> and <b>Afad</b></li>
+        <li>Analyze the data to get specific information by filter through <b>Java Stream API</b></li>
       </ul>
   </li>
 </ul>
