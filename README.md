@@ -1,6 +1,8 @@
 # Deprem Api (Kandilli & Afad)
 
-<div style="text-align: center;"><img src="screenshots/screenshot_main.PNG" alt="Main Information" width="200" height="200"></div>
+<p align="center">
+    <img src="screenshots/screenshot_main.PNG" alt="Main Information" width="200" height="200">
+</p>
 
 ### 📖 Information
 
