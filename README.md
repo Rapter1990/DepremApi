@@ -127,7 +127,7 @@
 
 ### Endpoints Information
 
-##### <a id="earthquakes_kandili"> Get All earthquakes list from Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili ```
+##### <a id="earthquakes_kandili"></a>  Get All earthquakes list from Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili ```
 
 ##### <a id="earthquakes_afad"></a> Get All earthquakes list from Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad ```
 
