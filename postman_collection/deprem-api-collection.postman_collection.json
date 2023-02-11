@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "aebb1769-1968-4c73-a44b-e5c501e04a36",
+		"name": "deprem-api-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All earthquakes list from Kandilli",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/kandili",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"kandili"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All earthquakes list from Afad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/afad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"afad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Location For Kandilli",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/kandili/locations/malatya",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"kandili",
+						"locations",
+						"malatya"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Location For Afad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/afad/locations/malatya",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"afad",
+						"locations",
+						"malatya"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Size ML For Kandilli",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/kandili/sizes/3.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"kandili",
+						"sizes",
+						"3.2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Size ML For Afad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/afad/sizes/3.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"afad",
+						"sizes",
+						"3.2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Location And Size For Kandilli",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/kandili/search?location=malatya&size=3.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"kandili",
+						"search"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "malatya"
+						},
+						{
+							"key": "size",
+							"value": "3.2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Location And Size For Afad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/afad/search?location=malatya&size=3.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"afad",
+						"search"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "malatya"
+						},
+						{
+							"key": "size",
+							"value": "3.2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Size Between Two ML For Kandili",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/kandili/sizes?minml=1.1&maxml=4.4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"kandili",
+						"sizes"
+					],
+					"query": [
+						{
+							"key": "minml",
+							"value": "1.1"
+						},
+						{
+							"key": "maxml",
+							"value": "4.4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter By Size Between Two ML For Afad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/earthquakes/afad/sizes?minml=1.1&maxml=4.4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"earthquakes",
+						"afad",
+						"sizes"
+					],
+					"query": [
+						{
+							"key": "minml",
+							"value": "1.1"
+						},
+						{
+							"key": "maxml",
+							"value": "4.4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
