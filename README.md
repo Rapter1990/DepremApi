@@ -129,91 +129,135 @@
 
 ### Endpoints Information
 
-##### <a id="earthquakes_kandili"></a>  Get All earthquakes list from Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili ```
-
-##### <a id="earthquakes_afad"></a> Get All earthquakes list from Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad ```
-
-##### <a id="earthquakes_kandili_locations"></a> Filter By Location For Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili/locations/{city_name} ```
+##### <a id="earthquakes_kandili"></a>  Get All earthquakes list from Kandilli
+``` 
+    http://localhost:8080/api/v1/earthquakes/kandili 
 ```
+
+##### <a id="earthquakes_afad"></a> Get All earthquakes list from Afad
+``` 
+    http://localhost:8080/api/v1/earthquakes/afad 
+```
+
+##### <a id="earthquakes_kandili_locations"></a> Filter By Location For Kandilli
+```
+   http://localhost:8080/api/v1/earthquakes/kandili/locations/{city_name} 
+   
    http://localhost:8080/api/v1/earthquakes/kandili/locations/malatya
 ```
 
-##### <a id="earthquakes_afad_locations"></a> Filter By Location For Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad/locations/{city_name} ```
+##### <a id="earthquakes_afad_locations"></a> Filter By Location For Afad
 ```
+   http://localhost:8080/api/v1/earthquakes/afad/locations/{city_name}
+   
    http://localhost:8080/api/v1/earthquakes/afad/locations/malatya
 ```
 
-##### <a id="earthquakes_kandili_sizes"></a> Filter By Size ML For Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili/sizes/{size_value} ```
+##### <a id="earthquakes_kandili_sizes"></a> Filter By Size ML For Kandilli
 ```
+   http://localhost:8080/api/v1/earthquakes/kandili/sizes/{size_value}
+   
    http://localhost:8080/api/v1/earthquakes/kandili/sizes/3.2
 ```
 
-##### <a id="earthquakes_afad_sizes"></a> Filter By Size ML For Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad/sizes/{size_value} ```
+##### <a id="earthquakes_afad_sizes"></a> Filter By Size ML For Afad
 ```
+   http://localhost:8080/api/v1/earthquakes/afad/sizes/{size_value}
+   
    http://localhost:8080/api/v1/earthquakes/afad/sizes/3.2
 ```
 
-##### <a id="earthquakes_kandilli_search"></a> Filter By Location And Size For Kandilli -> ``` http://localhost:8080/api/v1/earthquakes/kandili/search?location={city_name}&size={size_value} ```
+##### <a id="earthquakes_kandilli_search"></a> Filter By Location And Size For Kandilli
 ```
+   http://localhost:8080/api/v1/earthquakes/kandili/search?location={city_name}&size={size_value}
+   
    http://localhost:8080/api/v1/earthquakes/kandili/search?location=malatya&size=3.2
 ```
 
-##### <a id="earthquakes_afad_search"></a> Filter By Location And Size For Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad/sizes/{size_value} ```
+##### <a id="earthquakes_afad_search"></a> Filter By Location And Size For Afad
 ```
+   http://localhost:8080/api/v1/earthquakes/afad/search?location={city_name}&size={size_value}
+   
    http://localhost:8080/api/v1/earthquakes/afad/search?location=malatya&size=3.2
 ```
 
-##### <a id="earthquakes_kandili_sizes"></a> Filter By Size Between Two ML For Kandili -> ``` http://localhost:8080/api/v1/earthquakes/kandili/sizes?minml={minml_value}&maxml={maxml_value} ```
+##### <a id="earthquakes_kandili_sizes"></a> Filter By Size Between Two ML For Kandili
 ```
+   http://localhost:8080/api/v1/earthquakes/kandili/sizes?minml={minml_value}&maxml={maxml_value}
+   
    http://localhost:8080/api/v1/earthquakes/kandili/sizes?minml=1.1&maxml=4.4
 ```
 
-##### <a id="earthquakes_afad_sizes"></a> Filter By Size Between Two ML For Afad -> ``` http://localhost:8080/api/v1/earthquakes/afad/sizes?minml={minml_value}&maxml={maxml_value} ```
+##### <a id="earthquakes_afad_sizes"></a> Filter By Size Between Two ML For Afad
 ```
+   http://localhost:8080/api/v1/earthquakes/afad/sizes?minml={minml_value}&maxml={maxml_value}
+   
    http://localhost:8080/api/v1/earthquakes/afad/sizes?minml=1.1&maxml=4.4
 ```
 
-##### <a id="earthquakes_kandili_aws">Get All earthquakes list from Kandilli -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili ```
-
-##### <a id="earthquakes_afad_aws"></a>Get All earthquakes list from Afad -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad```
-
-##### <a id="earthquakes_kandili_locations_aws"></a> Filter By Location For Kandilli -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/locations/{city_name}```
-```
-   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/locations/malatya
+##### <a id="earthquakes_kandili_aws">Get All earthquakes list from Kandilli
+``` 
+    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili 
 ```
 
-##### <a id="earthquakes_afad_locations_aws"></a> Filter By Location For Afad -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/locations/{city_name} ```
+##### <a id="earthquakes_afad_aws"></a>Get All earthquakes list from Afad 
+``` 
+    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad
 ```
+
+##### <a id="earthquakes_kandili_locations_aws"></a> Filter By Location For Kandilli
+``` 
+    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/locations/{city_name}
+    
+    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/locations/malatya
+```
+
+##### <a id="earthquakes_afad_locations_aws"></a> Filter By Location For Afad
+```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/locations/{city_name} 
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/locations/malatya
 ```
 
-##### <a id="earthquakes_kandili_sizes_aws"></a> Filter By Size ML For Kandilli -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes/{size_value} ```
+##### <a id="earthquakes_kandili_sizes_aws"></a> Filter By Size ML For Kandilli
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes/{size_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes/3.2
 ```
 
-##### <a id="earthquakes_afad_sizes_aws"></a> Filter By Size ML For Afad -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes/{size_value} ```
+##### <a id="earthquakes_afad_sizes_aws"></a> Filter By Size ML For Afad
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes/{size_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes/3.2
 ```
 
-##### <a id="earthquakes_kandilli_search_aws"></a> Filter By Location And Size For Kandilli -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/search?location={city_name}&size={size_value} ```
+##### <a id="earthquakes_kandilli_search_aws"></a> Filter By Location And Size For Kandilli
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/search?location={city_name}&size={size_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/search?location=malatya&size=3.2
 ```
 
-##### <a id="earthquakes_afad_search_aws"></a> Filter By Location And Size For Afad -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes/{size_value} ```
+##### <a id="earthquakes_afad_search_aws"></a> Filter By Location And Size For Afad
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes/{size_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/search?location=malatya&size=3.2
 ```
 
-##### <a id="earthquakes_kandili_sizes_aws"></a> Filter By Size Between Two ML For Kandili -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes?minml={minml_value}&maxml={maxml_value} ```
+##### <a id="earthquakes_kandili_sizes_aws"></a> Filter By Size Between Two ML For Kandili
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes?minml={minml_value}&maxml={maxml_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/kandili/sizes?minml=1.1&maxml=4.4
 ```
 
-##### <a id="earthquakes_afad_sizes_aws"></a> Filter By Size Between Two ML For Afad -> ``` http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes?minml={minml_value}&maxml={maxml_value} ```
+##### <a id="earthquakes_afad_sizes_aws"></a> Filter By Size Between Two ML For Afad
 ```
+   http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes?minml={minml_value}&maxml={maxml_value}
+
    http://depremapiapp-env.eba-wmwyubuc.us-east-2.elasticbeanstalk.com/api/v1/earthquakes/afad/sizes?minml=1.1&maxml=4.4
 ```
 
