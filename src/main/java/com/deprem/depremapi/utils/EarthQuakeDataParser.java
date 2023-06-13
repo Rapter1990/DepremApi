@@ -87,11 +87,12 @@ public class EarthQuakeDataParser {
         List<EarthquakeAfad> earthquakeList = new ArrayList<>();
 
         Document doc = Jsoup.connect(Constants.AFAD_LINK).get();
+
         Elements trs = doc.select("tr");
 
         trs.remove(0);
 
-        log.info("EarthQuakeDataParser | getEarthQuakeDataFromKandilli | trs size : " + trs.size());
+        log.info("EarthQuakeDataParser | getEarthQuakeDataFromAfad | trs size : " + trs.size());
 
         for (int i = 0; i < trs.size(); i++) {
 
