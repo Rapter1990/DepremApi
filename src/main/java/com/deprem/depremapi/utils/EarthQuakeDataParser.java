@@ -87,7 +87,6 @@ public class EarthQuakeDataParser {
         List<EarthquakeAfad> earthquakeList = new ArrayList<>();
 
         Document doc = Jsoup.connect(Constants.AFAD_LINK).get();
-
         Elements trs = doc.select("tr");
 
         trs.remove(0);
